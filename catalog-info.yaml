@@ -8,7 +8,7 @@ metadata:
 spec:
   type: documentation
   lifecycle: experimental
-  owner: team@example.com
+  owner: user:default/user
   techdocs:
     source:
       type: github        # GitHub É\Å[ÉXÇ©ÇÁê∂ê¨
