@@ -1,8 +1,8 @@
-site_name: "TechDocs Sample"
+﻿site_name: "TechDocs Sample"
 site_description: "Sample documentation generated for Backstage TechDocs"
 site_author: "Your Name"
-docs_dir: docs   # src/docs 以下の Markdown を使用
-site_dir: ../../docs # 出力先（リポジトリルートの docs/）　
+docs_dir: .
+site_dir: docs
 
 plugins:
   - techdocs-core
