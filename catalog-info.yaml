@@ -6,6 +6,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: github:https://github.com/shouji-satou/TechDocTest001
 spec:
-  type: documentation
+  type: service
   lifecycle: experimental
   owner: user:default/user
