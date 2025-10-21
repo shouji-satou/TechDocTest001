@@ -9,9 +9,10 @@ spec:
   type: service
   owner: team-sample
   lifecycle: experimental
-  repository:
-    type: git
-    url: https://github.com/shouji-satou/TechDocTest001/docs
+  techdocs:
+    source:
+      type: github
+      target_url: https://github.com/shouji-satou/TechDocTest001
   dependsOn: []
   providesApis: []
   consumesApis: []
