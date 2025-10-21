@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'src/docs/**'
+      - 'src/mkdocs.yml'
 
 permissions:
   contents: write
