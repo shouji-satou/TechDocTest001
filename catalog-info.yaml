@@ -3,13 +3,9 @@ kind: Component
 metadata:
   name: techdocs-sample
   description: Sample TechDocs documentation
-  labels:
-    backstage.io/techdocs-ref: url
+  annotations:
+    backstage.io/techdocs-ref: github:hhttps://github.com/shouji-satou/TechDocTest001
 spec:
   type: documentation
   lifecycle: experimental
-  owner: user:default/user
-  techdocs:
-    source:
-      type: github        # GitHub ソースから生成
-      target_url: https://github.com/shouji-satou/TechDocTest001  # Markdown リポジトリ
+  owner: user:default
