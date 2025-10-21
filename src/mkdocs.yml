@@ -8,11 +8,6 @@ site_dir: ../docs
 plugins:
   - techdocs-core
 
-markdown_extensions:
-  - toc
-  - tables
-  - fenced_code
-
 theme:
   name: mkdocs
 
