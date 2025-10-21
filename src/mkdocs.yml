@@ -1,11 +1,13 @@
 ﻿site_name: "TechDocs Sample"
 site_description: "Sample documentation generated for Backstage TechDocs"
 site_author: "Your Name"
+repo_url:　https://github.com/shouji-satou/TechDocTest001
 docs_dir: docs
 site_dir: ../docs
 
 plugins:
   - techdocs-core
+
 markdown_extensions:
   - toc
   - tables
