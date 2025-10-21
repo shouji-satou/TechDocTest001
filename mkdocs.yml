@@ -1,7 +1,7 @@
 site_name: "TechDocs Sample"
 site_description: "Sample documentation generated for Backstage TechDocs"
 site_author: "Your Name"
-
+docs_dir: .
 nav:
   - Home: index.md
 
