@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "generate-docs": "npx @backstage/techdocs-cli generate --source ./src --output ./docs"
+    "generate-docs": "npx techdocs-cli generate --source ./src --output ./docs"
   },
   "devDependencies": {
-    "techdocs-cli": "github:backstage/techdocs-cli#main"
+    "@techdocs/cli": "^1.10.0"
   }
 }
