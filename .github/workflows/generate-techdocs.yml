@@ -8,11 +8,11 @@ jobs:
   build-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: 24
       - run: npm install
       - run: npm run generate-docs
       - name: Commit generated docs
