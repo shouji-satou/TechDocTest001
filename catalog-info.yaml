@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: techdocs-sample２
+  name: techdocs-sample
   description: Sample TechDocs documentation
   annotations:
     backstage.io/techdocs-ref: github:hhttps://github.com/shouji-satou/TechDocTest001
 spec:
   type: documentation
   lifecycle: experimental
-  owner: user:default
+  owner: user:default/user
