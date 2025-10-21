@@ -1,9 +1,14 @@
-# TechDocs Sample
+# Welcome to TechDocs Sample
 
-これは Red Hat Developer Hub 上で TechDocs 検証用のサンプルです。
+This documentation is generated using **mkdocs-techdocs-core** and the **TechDocs CLI**.
 
-## 使用方法
+## What's inside
 
-1. `npm install` を実行
-2. `npm run generate-docs` を実行
-3. `docs/` フォルダに TechDocs が生成されます
+- `mkdocs.yml`: Configuration for MkDocs + TechDocs
+- `docs/`: Markdown files for your documentation
+- GitHub Actions workflow: Builds and publishes to GitHub Pages
+
+## Generate locally
+
+```bash
+npx @backstage/techdocs-cli generate --source-dir ./src --output-dir ./site
