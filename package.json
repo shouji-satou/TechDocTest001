@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "generate-docs": "npx techdocs-cli generate --source-dir ./src --output-dir ./docs"
+    "generate-docs": "npx techdocs-cli generate --source-dir ./src --output-dir ./docs --log-level debug"
   },
   "devDependencies": {
     "@techdocs/cli": "^1.10.0"
