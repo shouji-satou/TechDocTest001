@@ -4,7 +4,7 @@ metadata:
   name: techdocs-sample
   description: Sample TechDocs documentation
   annotations:
-    backstage.io/techdocs-ref: github:hhttps://github.com/shouji-satou/TechDocTest001
+    backstage.io/techdocs-ref: https://github.com/shouji-satou/TechDocTest001/blob/main/docs/index.html
 spec:
   type: documentation
   lifecycle: experimental
