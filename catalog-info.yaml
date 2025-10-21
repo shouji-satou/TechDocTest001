@@ -2,17 +2,14 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: techdocs-sample
-  description: TechDocs 検証
-  tags:
-    - techdocs
+  description: Sample TechDocs documentation
+  labels:
+    backstage.io/techdocs-ref: url
 spec:
-  type: service
-  owner: team-sample
+  type: documentation
   lifecycle: experimental
+  owner: team@example.com
   techdocs:
     source:
-      type: github
-      target_url: https://github.com/shouji-satou/TechDocTest001
-  dependsOn: []
-  providesApis: []
-  consumesApis: []
+      type: github        # GitHub ソースから生成
+      target_url: https://github.com/shouji-satou/TechDocTest001  # Markdown リポジトリ
