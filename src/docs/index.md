@@ -1,4 +1,4 @@
-# Welcome to TechDocs Sample
+# Welcome to TechDocs Sample : ${{ values.app_name }}
 
 This documentation is generated using **mkdocs-techdocs-core** and the **TechDocs CLI**.
 
