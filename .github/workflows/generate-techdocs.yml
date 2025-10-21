@@ -3,6 +3,8 @@ name: Generate TechDocs
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'src/docs/**'
 
 permissions:
   contents: write

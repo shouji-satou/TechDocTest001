@@ -11,7 +11,7 @@ spec:
   lifecycle: experimental
   repository:
     type: git
-    url: https://github.com/shouji-satou/TechDocTest001
+    url: https://github.com/shouji-satou/TechDocTest001/docs
   dependsOn: []
   providesApis: []
   consumesApis: []
