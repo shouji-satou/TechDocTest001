@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: techdocs-sample
+  description: TechDocs 検証用サンプル
+  tags:
+    - techdocs
+spec:
+  type: service
+  owner: team-sample
+  lifecycle: experimental
+  repository:
+    type: git
+    url: https://github.com/<your-org>/techdocs-sample-template
+  dependsOn: []
+  providesApis: []
+  consumesApis: []

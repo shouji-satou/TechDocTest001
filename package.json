@@ -1,0 +1,11 @@
+{
+  "name": "techdocs-sample",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "generate-docs": "npx @backstage/techdocs-cli generate --source ./src --output ./docs"
+  },
+  "devDependencies": {
+    "@backstage/techdocs-cli": "^0.14.0"
+  }
+}
