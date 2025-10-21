@@ -1,8 +1,8 @@
 site_name: "TechDocs Sample"
 site_description: "Sample documentation generated for Backstage TechDocs"
 site_author: "Your Name"
-docs_dir: docs   # src/docs ˆÈ‰º‚Ì Markdown ‚ğg—p
-site_dir: ../../docs # o—ÍæiƒŠƒ|ƒWƒgƒŠƒ‹[ƒg‚Ì docs/j
+docs_dir: docs   # src/docs ä»¥ä¸‹ã® Markdown ã‚’ä½¿ç”¨
+site_dir: ../../docs # å‡ºåŠ›å…ˆï¼ˆãƒªãƒã‚¸ãƒˆãƒªãƒ«ãƒ¼ãƒˆã® docs/ï¼‰ã€€
 nav:
   - Home: index.md
 
