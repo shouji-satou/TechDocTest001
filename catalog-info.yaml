@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: techdocs-sample
-  description: TechDocs æ¤œè¨¼ç”¨ã‚µãƒ³ãƒ—ãƒ«
+  description: TechDocs ŒŸØ
   tags:
     - techdocs
 spec:
@@ -11,7 +11,7 @@ spec:
   lifecycle: experimental
   repository:
     type: git
-    url: https://github.com/<your-org>/techdocs-sample-template
+    url: https://github.com/shouji-satou/TechDocTest001
   dependsOn: []
   providesApis: []
   consumesApis: []
