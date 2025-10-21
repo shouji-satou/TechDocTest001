@@ -17,8 +17,8 @@ jobs:
       - run: npm run generate-docs
       - name: Commit generated docs
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "satou@aimsys.co.jp"
+          git config --local user.name "shouji-satou"
           git add docs
           git commit -m "Update TechDocs" || echo "No changes"
           git push
