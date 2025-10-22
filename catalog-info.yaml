@@ -9,6 +9,7 @@ metadata:
       icon: github  
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001
+    # backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001
       
 spec:
   type: service
