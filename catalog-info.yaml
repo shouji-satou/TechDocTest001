@@ -4,7 +4,7 @@ metadata:
   name: techdocs-sample
   description: Sample TechDocs documentation
   links:
-    - url: https://github.com/shouji-satou/TechDocTest001/blob/main/docs/index.html
+    - url: https://github.com/shouji-satou/TechDocTest001/tree/main/docs
       title: App Repository
       icon: github  
   annotations:
