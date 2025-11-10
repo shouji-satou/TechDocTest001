@@ -8,7 +8,7 @@ metadata:
   #    title: App Repository
   #    icon: github  
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001/
+    backstage.io/techdocs-ref: url:https://shouji-satou.github.io/TechDocTest001/
     # backstage.io/techdocs-ref: ./src
     #backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001/blob/main/docs/index.html
     #backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001
