@@ -3,10 +3,10 @@ kind: Component
 metadata:
   name: techdocs-sample
   description: Sample TechDocs documentation
-  links:
-    - url: https://github.com/shouji-satou/TechDocTest001/tree/main/docs
-      title: App Repository
-      icon: github  
+  #links:
+  #  - url: https://github.com/shouji-satou/TechDocTest001/tree/main/docs
+  #    title: App Repository
+  #    icon: github  
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/shouji-satou/TechDocTest001/docs/
     # backstage.io/techdocs-ref: ./src
